@@ -1,0 +1,16 @@
+# API 키 (절대 공유 금지!)
+.env
+data/kis_token.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
