@@ -105,9 +105,9 @@
         <h1>배당주 자동매매</h1>
         <div style="display:flex; align-items:center; gap:15px; flex-wrap:wrap;">
             <span class="fg-badge fg-neutral">
-                공포&탐욕: 23 (extreme fear)
+                공포&탐욕: 21 (extreme fear)
             </span>
-            <span style="color: #7b8fa3;">매수 가중치: 2.04배</span>
+            <span style="color: #7b8fa3;">매수 가중치: 2.12배</span>
             <button class="logic-btn" onclick="document.getElementById('logicModal').classList.add('active')">
                 <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
                 투자 로직
@@ -206,7 +206,7 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="label">총 자산가치</div>
-                <div class="value">$756.17</div>
+                <div class="value">$758.92</div>
             </div>
             <div class="stat-card">
                 <div class="label">예수금 (현금)</div>
@@ -218,7 +218,7 @@
             </div>
             <div class="stat-card">
                 <div class="label">평가 손익</div>
-                <div class="value positive">$5.17 (+1.4%)</div>
+                <div class="value positive">$7.92 (+2.2%)</div>
             </div>
             <div class="stat-card">
                 <div class="label">누적 배당금</div>
@@ -230,11 +230,11 @@
             </div>
             <div class="stat-card">
                 <div class="label">위성 (개별주)</div>
-                <div class="value">48.0%</div>
+                <div class="value">48.2%</div>
             </div>
             <div class="stat-card">
                 <div class="label">현금 버퍼</div>
-                <div class="value">52.0%</div>
+                <div class="value">51.8%</div>
             </div>
         </div>
 
@@ -259,18 +259,18 @@
             <td style="font-weight:bold">LRCX</td>
             <td>1.0000</td>
             <td>$218.11</td>
-            <td>$222.70</td>
-            <td class="positive">+2.1% ($4.59)</td>
+            <td>$226.47</td>
+            <td class="positive">+3.8% ($8.36)</td>
             <td>0.00%</td>
             <td class="score-low">-</td>
-            <td>29.5%</td>
+            <td>29.8%</td>
         </tr><tr>
             <td><span class="badge badge-highdiv">고배당</span></td>
             <td style="font-weight:bold">CMCSA</td>
             <td>1.0000</td>
             <td>$30.23</td>
-            <td>$30.56</td>
-            <td class="positive">+1.1% ($0.33)</td>
+            <td>$30.08</td>
+            <td class="negative">-0.5% ($-0.15)</td>
             <td>0.00%</td>
             <td class="score-low">-</td>
             <td>4.0%</td>
@@ -279,11 +279,11 @@
             <td style="font-weight:bold">AFL</td>
             <td>1.0000</td>
             <td>$109.83</td>
-            <td>$110.06</td>
-            <td class="positive">+0.2% ($0.23)</td>
+            <td>$109.52</td>
+            <td class="negative">-0.3% ($-0.31)</td>
             <td>0.00%</td>
             <td class="score-low">-</td>
-            <td>14.6%</td>
+            <td>14.4%</td>
         </tr></tbody></table>
         </div>
 
@@ -328,13 +328,13 @@
         </div>
 
         <div style="text-align:center;color:#455a64;padding:20px;font-size:0.8em;">
-            마지막 업데이트: 2026-03-17 23:59 | 분석 대상: S&amp;P500 + NASDAQ100 (~550개) | 매수 후보: 0개
+            마지막 업데이트: 2026-03-18 17:48 | 분석 대상: S&amp;P500 + NASDAQ100 (~550개) | 매수 후보: 0개
         </div>
     </div>
 
     <script>
         Plotly.newPlot('allocationChart', [{
-            values: [0.0, 48.0, 52.0],
+            values: [0.0, 48.2, 51.8],
             labels: ['코어 (SCHD)', '위성 (개별주)', '현금 버퍼'],
             type: 'pie', marker: { colors: ['#1976d2', '#66bb6a', '#ffa726'] },
             textinfo: 'label+percent', textfont: { color: '#e0e6ed' }, hole: 0.4
